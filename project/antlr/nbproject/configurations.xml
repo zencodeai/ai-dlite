@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="include" displayName="include" projectFiles="true">
+      <itemPath>include/antlr3.h</itemPath>
+      <itemPath>include/antlr3baserecognizer.h</itemPath>
+      <itemPath>include/antlr3basetree.h</itemPath>
+      <itemPath>include/antlr3basetreeadaptor.h</itemPath>
+      <itemPath>include/antlr3bitset.h</itemPath>
+      <itemPath>include/antlr3collections.h</itemPath>
+      <itemPath>include/antlr3commontoken.h</itemPath>
+      <itemPath>include/antlr3commontree.h</itemPath>
+      <itemPath>include/antlr3commontreeadaptor.h</itemPath>
+      <itemPath>include/antlr3commontreenodestream.h</itemPath>
+      <itemPath>antlr3config.h</itemPath>
+      <itemPath>include/antlr3convertutf.h</itemPath>
+      <itemPath>include/antlr3cyclicdfa.h</itemPath>
+      <itemPath>include/antlr3debugeventlistener.h</itemPath>
+      <itemPath>include/antlr3defs.h</itemPath>
+      <itemPath>include/antlr3encodings.h</itemPath>
+      <itemPath>include/antlr3errors.h</itemPath>
+      <itemPath>include/antlr3exception.h</itemPath>
+      <itemPath>include/antlr3filestream.h</itemPath>
+      <itemPath>include/antlr3input.h</itemPath>
+      <itemPath>include/antlr3interfaces.h</itemPath>
+      <itemPath>include/antlr3intstream.h</itemPath>
+      <itemPath>include/antlr3lexer.h</itemPath>
+      <itemPath>include/antlr3memory.h</itemPath>
+      <itemPath>include/antlr3parser.h</itemPath>
+      <itemPath>include/antlr3parsetree.h</itemPath>
+      <itemPath>include/antlr3recognizersharedstate.h</itemPath>
+      <itemPath>include/antlr3rewritestreams.h</itemPath>
+      <itemPath>include/antlr3string.h</itemPath>
+      <itemPath>include/antlr3stringstream.h</itemPath>
+      <itemPath>include/antlr3tokenstream.h</itemPath>
+      <itemPath>include/antlr3treeparser.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="src" displayName="src" projectFiles="true">
+      <itemPath>src/antlr3baserecognizer.c</itemPath>
+      <itemPath>src/antlr3basetree.c</itemPath>
+      <itemPath>src/antlr3basetreeadaptor.c</itemPath>
+      <itemPath>src/antlr3bitset.c</itemPath>
+      <itemPath>src/antlr3collections.c</itemPath>
+      <itemPath>src/antlr3commontoken.c</itemPath>
+      <itemPath>src/antlr3commontree.c</itemPath>
+      <itemPath>src/antlr3commontreeadaptor.c</itemPath>
+      <itemPath>src/antlr3commontreenodestream.c</itemPath>
+      <itemPath>src/antlr3convertutf.c</itemPath>
+      <itemPath>src/antlr3cyclicdfa.c</itemPath>
+      <itemPath>src/antlr3debughandlers.c</itemPath>
+      <itemPath>src/antlr3encodings.c</itemPath>
+      <itemPath>src/antlr3exception.c</itemPath>
+      <itemPath>src/antlr3filestream.c</itemPath>
+      <itemPath>src/antlr3inputstream.c</itemPath>
+      <itemPath>src/antlr3intstream.c</itemPath>
+      <itemPath>src/antlr3lexer.c</itemPath>
+      <itemPath>src/antlr3parser.c</itemPath>
+      <itemPath>src/antlr3rewritestreams.c</itemPath>
+      <itemPath>src/antlr3string.c</itemPath>
+      <itemPath>src/antlr3stringstream.c</itemPath>
+      <itemPath>src/antlr3tokenstream.c</itemPath>
+      <itemPath>src/antlr3treeparser.c</itemPath>
+      <itemPath>src/antlr3ucs2inputstream.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>include</Elem>
+    <Elem>src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

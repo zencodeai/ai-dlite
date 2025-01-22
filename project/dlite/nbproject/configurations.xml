@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="62">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>abox.h</itemPath>
+      <itemPath>../shared/cache.h</itemPath>
+      <itemPath>dlite.h</itemPath>
+      <itemPath>expression.h</itemPath>
+      <itemPath>factory.h</itemPath>
+      <itemPath>log.h</itemPath>
+      <itemPath>main.h</itemPath>
+      <itemPath>node.h</itemPath>
+      <itemPath>../shared/object.h</itemPath>
+      <itemPath>reasoner.h</itemPath>
+      <itemPath>sdep.h</itemPath>
+      <itemPath>../shared/shared.h</itemPath>
+      <itemPath>../shared/sptr.h</itemPath>
+      <itemPath>store.h</itemPath>
+      <itemPath>symtable.h</itemPath>
+      <itemPath>tbox.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>abox.cpp</itemPath>
+      <itemPath>factory.cpp</itemPath>
+      <itemPath>log.cpp</itemPath>
+      <itemPath>node.cpp</itemPath>
+      <itemPath>reasoner.cpp</itemPath>
+      <itemPath>store.cpp</itemPath>
+      <itemPath>symtable.cpp</itemPath>
+      <itemPath>tbox.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../shared</pElem>
+            <pElem>../sqlite</pElem>
+          </incDir>
+        </ccTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+    </conf>
+    <conf name="Release" type="3">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>Cygwin|Cygwin</compilerSet>
+        <platform>3</platform>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>../shared</pElem>
+            <pElem>../sqlite</pElem>
+          </incDir>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <archiverTool>
+        </archiverTool>
+      </compileType>
+    </conf>
+  </confs>
+</configurationDescriptor>

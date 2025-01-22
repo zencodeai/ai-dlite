@@ -1,0 +1,22 @@
+// $ANTLR 2.7.7 (20060906): OntologyParser.g -> OntologyParserTokenTypes.txt$
+OntologyParser    // output token vocab name
+DEFINE=4
+SEMI=5
+UNION=6
+INTER=7
+LP=8
+RP=9
+TOP=10
+BOTTOM=11
+NAME=12
+CMPL=13
+UNIV=14
+SLASH=15
+EXIST=16
+ALPHA=17
+DIGIT=18
+ID=19
+WS=20
+COMMENT=21
+POINT=22
+STAR=23
